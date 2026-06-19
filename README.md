@@ -40,3 +40,7 @@ Kendimi ve düşünce dünyamı tanıtmak için farklı bir yol aradım. Beyin H
 
 - Node.js 18+
 - npm
+
+## Canlı Demo
+
+[https://tulineren.github.io/beyin-haritasi/](https://tulineren.github.io/beyin-haritasi/)
