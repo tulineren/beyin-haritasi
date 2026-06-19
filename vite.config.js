@@ -2,8 +2,6 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
+  base: '/beyin-haritasi/',  // repo adın ne ise
   plugins: [react()],
-  // GitHub Pages için: repo adın "beyin-haritasi" ise bu satır doğru
-  // Değiştirmek istersen: base: "/REPO-ADIN/"
-  base: "/beyin-haritasi/",
-});
+})
