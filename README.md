@@ -1,79 +1,42 @@
-<<<<<<< HEAD
-# 🧠 Beynimin Haritası
+# Beyin Haritası
 
-Kişisel ilgi ve düşünce ağım — React + react-force-graph-2d ile yapılmış interaktif portfolyo.
+> İnteraktif zihin haritası oluşturma ve görselleştirme aracı
 
-## 🚀 Kurulum (5 adım)
-
-```bash
-# 1. Klasörü aç
-cd beyin-haritasi
-
-# 2. Bağımlılıkları yükle
-npm install
-
-# 3. Geliştirme sunucusunu başlat
-npm run dev
-```
-
-Tarayıcıda `http://localhost:5173` adresini aç.
+![Beyin Haritası](./screenshot.png)
 
 ---
 
-## ✏️ Kendi Bilgilerini Gir
+## Proje Hakkında
 
-**`src/data/graphData.js`** dosyasını aç ve:
-
-| Alan | Yapılacak |
-|------|-----------|
-| `label: "Adın Soyadın"` | Kendi adını yaz |
-| `description: "..."` | Her düğümün açıklamasını yaz |
-| `emoji: "🎸"` | Beğendiğin emojiyi koy |
-| `link: "..."` | GitHub/proje linkini ekle |
-| `// img: "/foto.jpg"` | Başındaki `//` yi kaldır, `public/` e fotoğrafını koy |
-| Yeni düğüm ekle | `nodes` ve `links` dizisine ekle |
+Bu projeyi, fikirleri ve kavramları görsel olarak organize etmek için geliştirdim. Beyin Haritası sayesinde düğümler arasında bağlantılar kurarak karmaşık düşünceleri kolayca yapılandırabilirsiniz. Notlarınızı statik bir liste yerine dinamik ve etkileşimli bir grafik üzerinde yönetmek istedim, bu yüzden fizik tabanlı bir graf motoru üzerine inşa ettim.
 
 ---
 
-## 🌍 GitHub Pages'e Yayınlama
+## Özellikler
 
-```bash
-# 1. package.json'da "homepage" alanını ekle:
-#    "homepage": "https://KULLANICI-ADIN.github.io/beyin-haritasi"
-
-# 2. Tek komutla deploy et:
-npm run deploy
-```
+- **İnteraktif Harita** — Sürükle-bırak ile düğümleri özgürce konumlandır
+- **Düğüm Ekleme** — Yeni fikir ve kavramları kolayca ekle
+- **Bağlantı Kurma** — Düğümler arasında ilişki bağlantıları oluştur
+- **Görsel Tasarım** — Temiz ve sezgisel arayüz
+- **Hızlı & Hafif** — Vite ile optimize edilmiş performans
 
 ---
 
-## 📁 Proje Yapısı
+## Teknoloji Stack
 
-```
-src/
-├── data/
-│   └── graphData.js      ← Buraya kendi verilerini gir!
-├── components/
-│   ├── DetailPanel.jsx   ← Sağdaki açıklama paneli
-│   ├── DetailPanel.css
-│   └── Legend.jsx        ← Renk göstergesi
-├── App.jsx               ← Ana bileşen (graf + state yönetimi)
-├── App.css
-└── main.jsx
-public/
-└── foto.jpg              ← Kendi fotoğrafını buraya koy
-```
+| Teknoloji | Açıklama |
+|-----------|----------|
+| React 18 | Kullanıcı arayüzü |
+| Vite | Build aracı |
+| react-force-graph-2d | Graf görselleştirme |
+| D3 Force | Fizik tabanlı düğüm yerleşimi |
+| gh-pages | GitHub Pages deploy |
 
 ---
 
-## 🎨 Renk Şeması
+## Kurulum
 
-| Kategori | Renk |
-|----------|------|
-| Beceri | 🔵 Mavi `#60a5fa` |
-| İlgi | 🟣 Mor `#a78bfa` |
-| Proje | 🟠 Turuncu `#fb923c` |
-| Hobi | 🟢 Yeşil `#4ade80` |
-=======
-# beyin-haritasi
->>>>>>> 8139360aa1dda998d816785cff70af40d54742d3
+### Gereksinimler
+
+- Node.js 18+
+- npm
