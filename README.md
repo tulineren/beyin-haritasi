@@ -8,7 +8,7 @@
 
 ## Proje Hakkında
 
-Bu projeyi, fikirleri ve kavramları görsel olarak organize etmek için geliştirdim. Beyin Haritası sayesinde düğümler arasında bağlantılar kurarak karmaşık düşünceleri kolayca yapılandırabilirsiniz. Notlarınızı statik bir liste yerine dinamik ve etkileşimli bir grafik üzerinde yönetmek istedim, bu yüzden fizik tabanlı bir graf motoru üzerine inşa ettim.
+Kendimi ve düşünce dünyamı tanıtmak için farklı bir yol aradım. Beyin Haritası, becerilerimi, ilgi alanlarımı, projelerimi ve hobilerimi statik bir CV yerine interaktif ve görsel bir grafik üzerinde sunuyor. React ve fizik tabanlı bir graf motoru kullanarak her düğümün birbirine organik şekilde bağlandığı, keşfedilebilir bir portfolyo deneyimi oluşturdum.
 
 ---
 
