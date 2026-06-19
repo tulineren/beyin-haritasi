@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #030712;
+  color: #e2e8f0;
+  overflow: hidden;
+}
+
+.app-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.app-header {
+  position: fixed;
+  top: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.app-header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #60a5fa, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.02em;
+}
+
+.app-header p {
+  font-size: 0.8rem;
+  color: #475569;
+  margin-top: 0.25rem;
+}
